@@ -3,11 +3,13 @@
 --gray: rgb(102, 102, 102);
 --orange: darkorange;
 --navlinks: rgb(19, 196, 196);
+--black: rgb(0, 0, 0);
+--green: rgb(9, 255, 0);
 }
 
 body {
-    background-color: var(--gray);
-    color: var(--orange);
+    background-color: var(--black);
+    color: var(--green);
     font-family: 'IM Fell English', serif;
     font-family: 'VT323', monospace;
 }
@@ -15,30 +17,36 @@ body {
 
 /*-----Header-----*/
 .Splash {
-    font-size: 32px;
-    background-color: var(--orange);
-    color: var(--gray);
+    font-size: 50px;
+    background-color: var(--black);
+    color: var(--green);
     position: sticky;
     display: flex;
-    padding-left: 50px;
     width: auto;
     flex-wrap: wrap-reverse;
     flex-direction: column;
+    border-width: 10px;
+    border-style: ridge;
+    border-color:var(--black) ;
 }
 .Splash h1 {
     display: flex;
     flex-direction: column;
-    margin-right: 750px;
+    text-align: center;
     flex-wrap: wrap;
 }
 
 nav {
     font-size: 30px;
     text-decoration: underline;
-    color: var(--gray);
+    color: var(--navlinks);
     display: inline-flex;
     margin: auto;
     flex-direction: row;
+    background-color: var(--black);
+    border-width: 10px;
+    border-style: ridge;
+    border-color: var(--green);
 }
 
 .Navigation {
@@ -47,14 +55,31 @@ nav {
     list-style: none;
     display: flex;
     flex-direction: row;
+    padding-right: 40px;
 }
 
 .Navigation li {
-    padding-right: 50px;
+    text-align: center;
+    margin: auto;
+    
 }
 
 /*-----Paragraphs & Content-----*/
-.About h1 {
+#About{
+
+}
+
+#About h1 {
     font-size: 50px;
     text-decoration: underline;
+    text-align: center;
+}
+
+#About p {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
 }
