@@ -1,0 +1,60 @@
+/*-----General-----*/
+:root {
+--gray: rgb(102, 102, 102);
+--orange: darkorange;
+--navlinks: rgb(19, 196, 196);
+}
+
+body {
+    background-color: var(--gray);
+    color: var(--orange);
+    font-family: 'IM Fell English', serif;
+    font-family: 'VT323', monospace;
+}
+
+
+/*-----Header-----*/
+.Splash {
+    font-size: 32px;
+    background-color: var(--orange);
+    color: var(--gray);
+    position: sticky;
+    display: flex;
+    padding-left: 50px;
+    width: auto;
+    flex-wrap: wrap-reverse;
+    flex-direction: column;
+}
+.Splash h1 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 750px;
+    flex-wrap: wrap;
+}
+
+nav {
+    font-size: 30px;
+    text-decoration: underline;
+    color: var(--gray);
+    display: inline-flex;
+    margin: auto;
+    flex-direction: row;
+}
+
+.Navigation {
+    width: 750px;
+    height: 30px;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.Navigation li {
+    padding-right: 50px;
+}
+
+/*-----Paragraphs & Content-----*/
+.About h1 {
+    font-size: 50px;
+    text-decoration: underline;
+}
