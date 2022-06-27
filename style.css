@@ -65,14 +65,22 @@ nav {
 }
 
 /*-----Paragraphs & Content-----*/
-#About{
-
+#About {
+    display: flex;
+    flex-direction: column;
 }
 
 #About h1 {
     font-size: 50px;
     text-decoration: underline;
     text-align: center;
+}
+
+#my-picture {
+    width: 450px;
+    height: 450px;
+    align-self: center;
+    margin-bottom: 20px;
 }
 
 #About p {
@@ -82,4 +90,5 @@ nav {
     flex-wrap: wrap;
     margin: auto;
     text-align: center;
+    width: 800px;
 }
