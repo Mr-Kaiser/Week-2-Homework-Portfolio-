@@ -1,10 +1,10 @@
 /*-----General-----*/
 :root {
---gray: rgb(102, 102, 102);
---orange: darkorange;
 --navlinks: rgb(19, 196, 196);
 --black: rgb(0, 0, 0);
 --green: rgb(9, 255, 0);
+
+
 }
 
 body {
@@ -39,7 +39,6 @@ body {
 nav {
     font-size: 30px;
     text-decoration: underline;
-    color: var(--navlinks);
     display: inline-flex;
     margin: auto;
     flex-direction: row;
@@ -47,6 +46,7 @@ nav {
     border-width: 10px;
     border-style: ridge;
     border-color: var(--green);
+    color: var(--navlinks);
 }
 
 .Navigation {
@@ -65,15 +65,25 @@ nav {
 }
 
 /*-----Paragraphs & Content-----*/
-#About {
+.Meat {
     display: flex;
     flex-direction: column;
 }
 
-#About h1 {
+.Meat h1 {
     font-size: 50px;
     text-decoration: underline;
     text-align: center;
+}
+
+.Meat p {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: auto;
+    text-align: center;
+    width: 800px;
 }
 
 #my-picture {
@@ -82,13 +92,6 @@ nav {
     align-self: center;
     margin-bottom: 20px;
 }
+#contact ul {
 
-#About p {
-    font-size: 24px;
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin: auto;
-    text-align: center;
-    width: 800px;
 }
