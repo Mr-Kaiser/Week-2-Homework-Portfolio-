@@ -62,8 +62,9 @@ nav {
     text-align: center;
     margin: auto;
 }
+
 .Navigation li a:visited {
-    color: var(--navlinks);
+    color: var(--green);
 }
 
 /*-----Paragraphs & Content-----*/
